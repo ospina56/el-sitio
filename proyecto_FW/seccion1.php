@@ -8,5 +8,4 @@
     <input type="password" name="contraseña" placeholder="Contraseña"><br>
     <input type="submit" value="ingresar">
 </form>
-
 </div> 

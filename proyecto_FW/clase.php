@@ -41,6 +41,18 @@ class inicio{
         }
         $conexion->close();
         return $salida; 
-    }   
+    } 
+    
+    public static function bloquearCuenta($contraseña){
+        require("conexion.php");
+        $salida="";
+        $sql="INSERT INTO tb_intentos_contraseña (contraseña) VALUES ($contraseña)";
+        $resultado= mysqli_query($conexion, $sql);
+        if ($resultado) {
+            echo "sesion iniciada correctamente";
+        }else{
+            echo "contraseña incorrecta: ".mysqli_error($conexion);
+        }
+    }
 }
 
