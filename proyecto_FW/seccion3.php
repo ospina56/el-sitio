@@ -1,4 +1,3 @@
-
 <head>
     <title><?php echo"saludo"; ?></title>
 </head>
@@ -11,6 +10,14 @@ if(!isset($_SESSION['nombre']) || $_SESSION['nombre'] === '') {
 }
 $nombre = $_SESSION['nombre']; // Guarda el nombre de usuario en una variable
 ?>
+<div class="container">
+                    
+<?php
+                
+    include( "plantilla.php" );
+                
+?>
+</div>
 
 <!DOCTYPE html>
 <html lang="es">
@@ -32,3 +39,5 @@ $nombre = $_SESSION['nombre']; // Guarda el nombre de usuario en una variable
 </body>
 
 </html>
+
+

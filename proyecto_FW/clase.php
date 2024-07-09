@@ -14,7 +14,7 @@ class login{
     public static function mostrar(){
         require("conexion.php");
         $salida= "";
-        $sql = "select * from tb_usuarios; ";
+        $sql = "select * from tb_usuarios; "; 
         $consulta = $conexion ->query($sql);
         while($fila = $consulta->fetch_assoc())
         {
