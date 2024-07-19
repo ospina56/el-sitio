@@ -35,7 +35,7 @@
           <ul class="site-menu js-clone-nav d-none d-md-block">
             
             <li >
-              <a href="index.html">Home</a>
+              <a href="index.php">Home</a>
              
             </li>
             
@@ -47,13 +47,13 @@
             <li>
               <div class="site-top-icons">
                 <ul>
-                  <li><a href="seccion1.php"><span class="icon icon-person"></span></a></li>
                   <li><a href="seccion2.php"><span class="icon"><img src="imagenes\agregar-usuario.png"></a></li>
+                  <li><a href="seccion1.php"><span class="icon icon-person"></span></a></li>
                   <li><a href="seccion8.php"><span class="icon icon-heart"></span></a></li>
                   <li>
-                    <a href="view/catalogo.php" class="site-cart">
+                    <a href="carrito/carrito.php" class="site-cart">
                       <span class="icon icon-shopping_cart"></span>
-                      <span class="count">0</span>
+                      <span class="count">1</span>
                     </a>
                   </li> 
                   <li class="d-inline-block d-md-none ml-md-0"><a href="#" class="site-menu-toggle js-menu-toggle"><span class="icon-menu"></span></a></li>
@@ -74,7 +74,7 @@
             <h1 class="mb-2"><i>FASHION WORLD</i></h1>
             <div class="intro-text text-center text-md-left">
               <p>
-                <a href="view/catalogo.php" class="btn btn-sm btn-warning">Comprar</a>
+                <a href="carrito/seccion8.php" class="btn btn-sm btn-warning">Comprar</a>
               </p>
             </div>
           </div>
@@ -86,7 +86,7 @@
       <div class="container">
         <div class="row justify-content-center  mb-5">
           <div class="col-md-7 site-section text-center pt-4">
-            <h2>Bienvenidos</h2>
+            <h2>☼ Bienvenido a fashion world ☼</h2>
           </div>
         </div>
         <div class="row align-items-center">
